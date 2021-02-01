@@ -18,4 +18,4 @@ f['总成绩'] = fsum
 print(f)
 fp = f.sort_values(by='总成绩', ascending=False)
 print(fp)
-fp.to_excel(r'G:\pythons\student_result2.xlsx')
+fp.to_excel('./student_result2.xlsx')
